@@ -10,13 +10,21 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 ## Algorithm
 
 1.Import Libraries: Import necessary libraries for data manipulation and machine learning.
+
 2.Read Data: Load the dataset from the CSV file.
+
 3.Explore Data: Print out information about the dataset like its structure and whether there are any missing values.
+
 4.Encode Categorical Data: Convert categorical data into numerical format for machine learning algorithms.
+
 5.Split Data: Divide the dataset into features (inputs) and target variable (output), then split them into training and testing sets.
+
 6.Model Training: Create a decision tree model and train it using the training data.
+
 7.Make Predictions: Use the trained model to predict salaries based on position and level for the test data.
+
 8.Evaluate Model: Assess the model's performance using metrics like Mean Squared Error (MSE) and R-squared score.
+
 9.Make Predictions on New Data: Apply the trained model to predict salary for a new data point with position 5 and level 6.
 
 ## Program:
@@ -51,11 +59,17 @@ print(dt.predict([[5,6]]))
 ```
 
 ## Output:
+### data
 ![Screenshot 2024-04-06 114237](https://github.com/vikamuhan-reddy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/144928933/515340a3-257c-4b60-bbef-c6fff920b19e)
+### data.info()
 ![Screenshot 2024-04-06 114247](https://github.com/vikamuhan-reddy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/144928933/aa997a38-1b53-488d-bbbd-d59a19ee0bcc)
+### data.isnull.sum()
 ![Screenshot 2024-04-06 114321](https://github.com/vikamuhan-reddy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/144928933/22f22e34-ee78-4dae-b6ed-c19c9325fc88)
+### data.head()
 ![Screenshot 2024-04-06 114328](https://github.com/vikamuhan-reddy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/144928933/c24281d0-f96a-4a1b-81de-90f970e841e1)
+### mean-square-error
 ![Screenshot 2024-04-06 114339](https://github.com/vikamuhan-reddy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/144928933/121ca0d2-ab49-4a58-91d9-b4abd40b6768)
+### predicted value
 ![Screenshot 2024-04-06 114353](https://github.com/vikamuhan-reddy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/144928933/8ff168a4-628c-4e1f-beff-cbf21cb446f4)
 
 
