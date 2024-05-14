@@ -8,6 +8,8 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+### Start
+Steps
 
 1.Import Libraries: Import necessary libraries for data manipulation and machine learning.
 
@@ -26,6 +28,8 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 8.Evaluate Model: Assess the model's performance using metrics like Mean Squared Error (MSE) and R-squared score.
 
 9.Make Predictions on New Data: Apply the trained model to predict salary for a new data point with position 5 and level 6.
+
+Stop
 
 ## Program:
 ```py
